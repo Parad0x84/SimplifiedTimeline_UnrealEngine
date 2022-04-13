@@ -1,2 +1,7 @@
 # SimplifiedTimeline_UnrealEngine
-A simple timeline object to use. It's mainly targeting to solve scalability problem with Unreals timelines. You can't duplicate them at runtime and they must be a component. You can't use them in widgets since they can't have components
+
+A simple timeline class to use.
+
+It solves 2 problem:
+1-) You can't duplicate or create timelines at runtime.
+2-) You can't use timelines in widgets, etc
